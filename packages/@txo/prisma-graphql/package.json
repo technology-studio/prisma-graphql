@@ -1,6 +1,6 @@
 {
   "name": "@txo/prisma-graphql",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Technology Studio - Prisma graphql",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,8 +23,7 @@
     "build:watch:lib": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@prisma/client": "*"
   }
